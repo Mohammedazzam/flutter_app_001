@@ -22,6 +22,7 @@ class HomePage extends StatelessWidget {
         backgroundColor: Colors.red,
         title: Text("Flutter App"),
         centerTitle: true,
+//        leading: Icon(Icon.ac_unit),
       ),
       body: Container(
         width: double.infinity,
