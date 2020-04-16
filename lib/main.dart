@@ -20,12 +20,13 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.red,
+        title: Text("Flutter App"),
       ),
       body: Container(
         width: double.infinity,
         height: 250,//infinity
 //        padding: EdgeInsets.all(50),
-        padding: EdgeInsets.only(top: 50,left: 120),
+        padding: EdgeInsets.only(top: 32,left: 24),
         color: Colors.amber,
         child: Text("Mohammed Azzam"),
       ),
