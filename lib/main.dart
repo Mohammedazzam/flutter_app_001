@@ -18,6 +18,8 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
+        width: double.infinity,
+        height: 250,//infinity
         color: Colors.amber,
         child: Text("Mohammed Azzam"),
       ),
