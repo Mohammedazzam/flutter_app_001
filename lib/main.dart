@@ -7,6 +7,6 @@ main(){
 class Flutter001 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return null();
+    return Container();
   }
 }
