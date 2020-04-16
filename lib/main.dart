@@ -20,6 +20,8 @@ class HomePage extends StatelessWidget {
       body: Container(
         width: double.infinity,
         height: 250,//infinity
+//        padding: EdgeInsets.all(50),
+        padding: EdgeInsets.only(top: 50,left: 120),
         color: Colors.amber,
         child: Text("Mohammed Azzam"),
       ),
